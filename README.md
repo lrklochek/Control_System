@@ -4,10 +4,10 @@ The system can be implemented inexpensively and would be ideal for a student doi
 The system allows operating, PI, or PID control with reverse or forward (direct) acting control., by using selectable final control elements (resistive heater, or variable fan speed).
 The system provides 2 sets of process dynamics by tightly coupling a temperature sensor to the resistive heater or alternatively using a sensor in the centre of the chamber. These very different process dynamics require very different sets of PID tuning.
 
-# # Thermal Chamber Temperature Control System Features.
-Chamber
-•	Small volume chamber 100mmx68mmx50mm
-•	Heater Temperature sensor affixed to resistive heater
+## Thermal Chamber Temperature Control System Features.
+###Chamber
+* •	Small volume chamber 100mmx68mmx50mm
+* •	Heater Temperature sensor affixed to resistive heater
 •	Air temperature sensor
 •	2 resistive heaters (30 and 36 ohms), 12 VDC supply to heaters
 •	Maximum heater temperature approx. 135 deg C
