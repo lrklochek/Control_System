@@ -5,7 +5,7 @@ The system allows operating, PI, or PID control with reverse or forward (direct)
 The system provides 2 sets of process dynamics by tightly coupling a temperature sensor to the resistive heater or alternatively using a sensor in the centre of the chamber. These very different process dynamics require very different sets of PID tuning.
 
 ## Thermal Chamber Temperature Control System Features.
-### Chamber
+## Chamber
 * Small volume chamber 100mmx68mmx50mm
 * Heater Temperature sensor affixed to resistive heater
 *	Air temperature sensor
@@ -13,7 +13,8 @@ The system provides 2 sets of process dynamics by tightly coupling a temperature
 *	Maximum heater temperature approx. 135 deg C
 *	Maximum air temp about 60 deg C
 *	2 distinctly different sets of process dynamics
-### PID Controller
+  
+## PID Controller
 *	Standard (sometimes called Mixed) algorithm
 *	Most commonly used in industry
 *	Select Reverse or Forward (Direct) acting
@@ -21,7 +22,8 @@ The system provides 2 sets of process dynamics by tightly coupling a temperature
 *	Forward uses fan as final control element
 *	2 sets of PID tuning constants for 2 different process dynamic cases
 *	Auto/Manual selection
-### Display
+  
+## Display
 * Runs independently with LCD display or along with Arduino Serial Plotter
 * LCD
 *	Heater temperature deg C
@@ -33,7 +35,7 @@ The system provides 2 sets of process dynamics by tightly coupling a temperature
 *	Integral component
 *	Derivative component
 *	Cout - total of three PID components
-•	Plotting
+*	Plotting
 o	Uses Arduino IDE serial plotter
 o	Plots Heater and air temperatures
 o	Plots Setpoint or Manual setting
