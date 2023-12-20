@@ -35,25 +35,24 @@ The system provides 2 sets of process dynamics by tightly coupling a temperature
 *	Integral component
 *	Derivative component
 *	Cout - total of three PID components
-*	Plotting
-o	Uses Arduino IDE serial plotter
-o	Plots Heater and air temperatures
-o	Plots Setpoint or Manual setting
-o	Generates the following commands
-	Auto – sets PID controller to automatic
-	Manual – sets system to manual  open loop operation
-	Reverse – sets PID to reverse acting using heater as controller output
-	Forward – sets PID to forward acting using fan as controller output
-	LM35_1 – sets PID controlled variable to heater temperature sensor
-	LM35_2 – sets PID controlled variable to air temperature sensor
- 
-Electronics
-•	Arduino Nano microcontroller
-o	Connects to LCD Display via I2C bus
-o	Generates 2 PWM outputs to Power Mosfet Interface board
-o	C Code generated from Arduino IDE
 
-•	Setpoint and disturbance generated from 2 potentiometers connected to Nano analog inputs 
-•	Temperature sensors – LM35 – generate 0 to 1.5 volts for 0 to 150 deg C
-•	Power Mosfets IRF540N are switched  at 490 Hz and operate via Pulse Width Modulation to vary the voltage on the heaters
+## Plotting
+*	Uses Arduino IDE serial plotter
+*	Plots Heater and air temperatures
+*	Plots Setpoint or Manual setting
+*	Generates the following commands
+*	Auto – sets PID controller to automatic
+*	Manual – sets system to manual  open loop operation
+*	Reverse – sets PID to reverse acting using heater as controller output
+*	Forward – sets PID to forward acting using fan as controller output
+*	LM35_1 – sets PID controlled variable to heater temperature sensor
+*	LM35_2 – sets PID controlled variable to air temperature sensor
+ 
+## Electronics
+* Arduino Nano microcontroller*Connects to LCD Display via I2C bus
+*	Generates 2 PWM outputs to Power Mosfet Interface board
+* C Code generated from Arduino IDE
+*	Setpoint and disturbance generated from 2 potentiometers connected to Nano analog inputs 
+*	Temperature sensors – LM35 – generate 0 to 1.5 volts for 0 to 150 deg C
+*	Power Mosfets IRF540N are switched  at 490 Hz and operate via Pulse Width Modulation to vary the voltage on the heaters
 
