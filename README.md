@@ -41,7 +41,7 @@ The system provides 2 sets of process dynamics by tightly coupling a temperature
 *	Plots Heater and air temperatures
 *	Plots Setpoint or Manual setting
 *	Generates the following commands
-*	Auto – sets PID controller to automatic
+**	Auto – sets PID controller to automatic
 *	Manual – sets system to manual  open loop operation
 *	Reverse – sets PID to reverse acting using heater as controller output
 *	Forward – sets PID to forward acting using fan as controller output
