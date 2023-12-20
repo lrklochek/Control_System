@@ -41,12 +41,12 @@ The system provides 2 sets of process dynamics by tightly coupling a temperature
 *	Plots Heater and air temperatures
 *	Plots Setpoint or Manual setting
 *	Generates the following commands
-*   Auto – sets PID controller to automatic
-*	  Manual – sets system to manual  open loop operation
-*	  Reverse – sets PID to reverse acting using heater as controller output
-*	  Forward – sets PID to forward acting using fan as controller output
-*	  LM35_1 – sets PID controlled variable to heater temperature sensor
-*	  LM35_2 – sets PID controlled variable to air temperature sensor
+* Auto – sets PID controller to automatic
+*	Manual – sets system to manual  open loop operation
+*	Reverse – sets PID to reverse acting using heater as controller output
+*	Forward – sets PID to forward acting using fan as controller output
+*	LM35_1 – sets PID controlled variable to heater temperature sensor
+*	LM35_2 – sets PID controlled variable to air temperature sensor
  
 ## Electronics
 * Arduino Nano microcontroller*Connects to LCD Display via I2C bus
