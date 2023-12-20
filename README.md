@@ -5,34 +5,34 @@ The system allows operating, PI, or PID control with reverse or forward (direct)
 The system provides 2 sets of process dynamics by tightly coupling a temperature sensor to the resistive heater or alternatively using a sensor in the centre of the chamber. These very different process dynamics require very different sets of PID tuning.
 
 ## Thermal Chamber Temperature Control System Features.
-###Chamber
-* •	Small volume chamber 100mmx68mmx50mm
-* •	Heater Temperature sensor affixed to resistive heater
-•	Air temperature sensor
-•	2 resistive heaters (30 and 36 ohms), 12 VDC supply to heaters
-•	Maximum heater temperature approx. 135 deg C
-•	Maximum air temp about 60 deg C
-•	2 distinctly different sets of process dynamics
-PID Controller
-•	Standard (sometimes called Mixed) algorithm
-o	Most commonly used in industry
-•	Select Reverse or Forward (Direct) acting
-o	Reverse uses heater as final control element
-o	Forward uses fan as final control element
-•	2 sets of PID tuning constants for 2 different process dynamic cases
-•	Auto/Manual selection
-Display
-Runs independently with LCD display or along with Arduino Serial Plotter
-•	LCD
-o	Heater temperature deg C
-o	Air temperature deg C
-o	Setpoint in deg C
-o	Fan or Heater manual setting 0 to 100%
-o	PID components displayed in real time
-	Proportional component
-	Integral component
-	Derivative component
-	Cout - total of three PID components
+### Chamber
+* Small volume chamber 100mmx68mmx50mm
+* Heater Temperature sensor affixed to resistive heater
+*	Air temperature sensor
+*	2 resistive heaters (30 and 36 ohms), 12 VDC supply to heaters
+*	Maximum heater temperature approx. 135 deg C
+*	Maximum air temp about 60 deg C
+*	2 distinctly different sets of process dynamics
+### PID Controller
+*	Standard (sometimes called Mixed) algorithm
+*	Most commonly used in industry
+*	Select Reverse or Forward (Direct) acting
+*	Reverse uses heater as final control element
+*	Forward uses fan as final control element
+*	2 sets of PID tuning constants for 2 different process dynamic cases
+*	Auto/Manual selection
+### Display
+* Runs independently with LCD display or along with Arduino Serial Plotter
+* LCD
+*	Heater temperature deg C
+*	Air temperature deg C
+*	Setpoint in deg C
+*	Fan or Heater manual setting 0 to 100%
+*	PID components displayed in real time
+*	Proportional component
+*	Integral component
+*	Derivative component
+*	Cout - total of three PID components
 •	Plotting
 o	Uses Arduino IDE serial plotter
 o	Plots Heater and air temperatures
