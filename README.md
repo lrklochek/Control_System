@@ -1,9 +1,13 @@
 # PID Temperature Control of a Miniature Thermal Chamber
-The PID Temperature Control of a miniature thermal chamber is a system designed for educational purposes. It can be used as an inexpensive lab for developing an understanding of process control and the effects of process dynamics on selecting the optimum PID (proportional, integral, and derivative) tuning constants.
-The system can be implemented inexpensively and would be ideal for a student doing an on-line course in process control systems.
-The system allows operating, PI, or PID control with reverse or forward (direct) acting control., by using selectable final control elements (resistive heater, or variable fan speed).
-The system provides 2 sets of process dynamics by tightly coupling a temperature sensor to the resistive heater or alternatively using a sensor in the centre of the chamber. These very different process dynamics require very different sets of PID tuning.
+The PID Temperature Control of a miniature thermal chamber is a system designed for educational purposes. It can be used as an inexpensive lab for developing an understanding of process control and the effects of process dynamics on selecting the optimum PID (proportional, integral, and derivative) tuning constants. The system can be implemented inexpensively and would be ideal for a student doing an on-line course in process control systems. The system allows operating, PI, or PID control with reverse or forward (direct) acting control., by using selectable final control elements (resistive heater, or variable fan speed). The system provides 2 sets of process dynamics by tightly coupling a temperature sensor to the resistive heater or alternatively using a sensor in the centre of the chamber. These very different process dynamics require very different sets of PID tuning.
 
+The system hardware consists of the miniature (100x68x50mm) thermal chamber, a control board and an interface board.
+
+The control board consists of an Arduino Nano, a setpoint potentiometer for setting desire temperature in deg C and a disturbance potentiometer, selectable for either heater or fan. The outputs from the Nano are 2 pulse width modulated signals that produce a variable DC voltage that drives the fan and heater.
+
+The interface board utilizes 2 N Channel power Mosfets and uses the PWM signals from the Nano to produce a PWM output with a maximum voltage of 12VDC to supply the thermal chamber heaters and fan.
+
+The thermal chamber consists or 2 Cement resistor heaters of 5 watts each, a 12VDC fan, and 2 LM35DZ temperature sensors. One of the sensors measures the air temperature of the Chamber, while the other sensor is firmly attached to one of the temperature resistor heaters.
 ## Thermal Chamber Temperature Control System Features.
 ## Chamber
 * Small volume chamber 100mmx68mmx50mm
