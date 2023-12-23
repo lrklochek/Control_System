@@ -22,6 +22,27 @@ The Schematic for the System is shown below:
 
 <img alt="Schematic" src="images/Schematic.jpg">
 
+## Hardware Components
+
+LM35D Temeperature Sensors, Qty 2
+* Arduino Nano Microcontroller
+* 10Kohm Potentiometers, Qty 2
+* 36 ohm 5 watt Cement Resistor – purchased from Digi Key
+* 30 ohm 5 watt Cement Resistor – purchased from Digi Key
+* IRF540N N channel Power Mosfets, Qty 2
+* 1N4001 Diodes, Qty 2
+* Red LED
+* Yellow LED
+* 220 ohm ¼ watt Resistors, Qty 2
+* 10K ohm ¼ watt Resistor
+*I2CLCD2004 20x4 LCD Display
+* Project Box LeMotech (100 x 68 x 50 mm) 
+* Fan -50 * 50 * 10mm 2pin DC 12V Mini Silent 
+* Gikfun 2 Pin (Qty 9) and 3 Pin (Qty 2) Screw Terminal Block Connector 5mm Pitch
+* YUNGUI 12Pcs 50X100mm 2-3-5 Joint Hole Universal PCB Boards Single Side, Qty 2
+* Binding Posts (4 different colours), Qty 4
+* Dupont Jumper wires
+
 The following image shows a block diagram for the system. Note that the Arduino Serial Plotter is used to display the Temperatures and Setpoints. It is also used to generate the following commands:
 
 <img alt="Block Diagram" src="images/Thermal Chamber PID  Temperature Control.jpg">
