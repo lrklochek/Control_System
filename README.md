@@ -68,7 +68,7 @@ The following image shows a block diagram for the system. Note that the Arduino 
 *	Maximum heater temperature approx. 135 deg C
 *	Maximum air temp about 60 deg C
 *	2 distinctly different sets of process dynamics
-  
+
 ## PID Controller
 *	Standard (sometimes called Mixed) algorithm
 *	Most commonly used in industry
