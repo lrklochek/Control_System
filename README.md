@@ -18,7 +18,9 @@ The following image shows the open chamber, with the 2 cement resistor heaters. 
 
 <img alt="Chamber" src="images/Chamber.JPG">
 
-The system hardware consists of the miniature (100x68x50mm) thermal chamber, a control board and an interface board.
+The Schematic for the System is shown below:
+
+<img alt="Schematic" src="images/Schematic.jpg">
 
 The following image shows a block diagram for the system. Note that the Arduino Serial Plotter is used to display the Temperatures and Setpoints. It is also used to generate the following commands:
 
