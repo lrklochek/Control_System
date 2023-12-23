@@ -24,17 +24,17 @@ The following image shows a block diagram for the system. Note that the Arduino 
 
 <img alt="Block Diagram" src="images/Thermal Chamber PID  Temperature Control.jpg">
 
-TM35_1 sets the PID controlled variable as the temperature of one of the cement resistor heaters. In the phot, it is the cement resistor on the right.
+**TM35_1** sets the PID controlled variable as the temperature of one of the cement resistor heaters. In the phot, it is the cement resistor on the right.
 
-TM35_2 sets the PID Controlled variable as the temperature of the sensor in the middle of the chamber.
+**TM35_2** sets the PID Controlled variable as the temperature of the sensor in the middle of the chamber.
 
-Reverse sets the PID controller to Reverse acting, where the temperature is controlled by the PID adjusting the voltage to the cement resistor heater. The fan then can be manually adjusted by the potentiometer to act as a disturbance.
+**Reverse** sets the PID controller to Reverse acting, where the temperature is controlled by the PID adjusting the voltage to the cement resistor heater. The fan then can be manually adjusted by the potentiometer to act as a disturbance.
 
-Forward sets the PID controller to Forward(Direct) acting where the temperature is controlled by adjusting the fan voltage, and therefor air flow to the chamber. The heater then can be manually adjusted by the potentiometer to act as a disturbance.
+**Forward** sets the PID controller to Forward(Direct) acting where the temperature is controlled by adjusting the fan voltage, and therefor air flow to the chamber. The heater then can be manually adjusted by the potentiometer to act as a disturbance.
 
-Manual disables the PID controller and allows the the setpoint potentiometer to fix either the heater or fan setting from 0 to 100%. There is no feed back. This is referred to as open loop.
+**Manual** disables the PID controller and allows the the setpoint potentiometer to fix either the heater or fan setting from 0 to 100%. There is no feed back. This is referred to as open loop.
 
-Auto enables the PID controller, either Reverse or Forward acting.
+**Auto enables** the PID controller, either Reverse or Forward acting.
 
 ## Thermal Chamber Temperature Control System Features.
 ## Chamber
