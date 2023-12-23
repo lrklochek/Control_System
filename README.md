@@ -88,3 +88,15 @@ The following image shows a block diagram for the system. Note that the Arduino 
 *	Temperature sensors – LM35 – generate 0 to 1.5 volts for 0 to 150 deg C
 *	Power Mosfets IRF540N are switched  at 490 Hz and operate via Pulse Width Modulation to vary the voltage on the heaters
 
+## How Does the PID Work?
+Before the use of microcontrollers and computers PID controllers were implemented with analog electronic devices, the principle one being the operational amplifier.
+Implementing PID control digitally uses an algorithm. There are several versions of the PID controller. The one implemented in this project is sometimes referred to as the Mixed or Standard implementation.
+The mathematics of the PID mixed PID controller can be represented as the following.
+
+image.png
+
+Where:
+Kc is the controller gain, Ti is the integral time, Td is the derivative time, and e is the error. Sometimes controller gain is represented as  Kc = 100%/PB where PB is referred to as Proportional Band. A smaller PB then results in a larger gain .
+The following is pseudo code for implementing the PID algorithm. It is not in the form of an actual programming language but more in the form of a flow diagram.
+Pseudo Code.jpg
+Pseudo Code For PID Algorithm
