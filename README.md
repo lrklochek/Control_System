@@ -18,7 +18,7 @@ The interface board utilizes 2 N Channel power Mosfets and uses the PWM signals 
 The thermal chamber consists or 2 Cement resistor heaters of 5 watts each, a 12VDC fan, and 2 LM35DZ temperature sensors. One of the sensors measures the air temperature of the Chamber, while the other sensor is firmly attached to one of the temperature resistor heaters.
 
 The following image shows a block diagram for the system. Note that the Arduino Serial Plotter is used to display the Temperatures and Setpoints. It is also used to generate the following commands:
-
+<img alt="Block Diagaram" src="images/Thermal Chamber PID  Temperature Control.jpg">
 TM35_1 sets the PID controlled variable as the temperature of one of the cement resistor heaters. In the phot, it is the cement resistor on the right.
 
 TM35_2 sets the PID Controlled variable as the temperature of the sensor in the middle of the chamber.
