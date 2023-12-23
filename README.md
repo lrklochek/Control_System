@@ -98,5 +98,6 @@ The mathematics of the mixed PID controller can be represented as the following.
 Where:
 Kc is the controller gain, Ti is the integral time, Td is the derivative time, and e is the error. Sometimes controller gain is represented as  Kc = 100%/PB where PB is referred to as Proportional Band. A smaller PB then results in a larger gain .
 The following is pseudo code for implementing the PID algorithm. It is not in the form of an actual programming language but more in the form of a flow diagram.
-Pseudo Code.jpg
-Pseudo Code For PID Algorithm
+
+<img alt="Pseudo Code" src="images/Pseudo Code.jpg">
+
