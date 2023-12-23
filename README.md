@@ -120,7 +120,6 @@ The following plot is an open loop response for the temperature sensor attached 
 
 The following chart is from an Excel spread sheet for using the information from the plot to calculate a set of PID and PI tuning constants:
 
-
 <img alt="Tuning Constant Spread Sheet.jpg" src="images/Tuning Constant Spread Sheet.jpg">
 
 When these tuning constants are used they yield a response sometimes referred to as Quarter Decay. That is, the temperature will overshoot and undershoot several times with each successive overshoot being reduce to a quarter of the previous cycle. After several of these cycles, the temperature will reach the desired setpoint, referred to as steady state.
