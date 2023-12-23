@@ -101,3 +101,4 @@ The following is pseudo code for implementing the PID algorithm. It is not in th
 
 <img alt="Pseudo Code" src="images/Pseudo Code.jpg">
 
+The following is a simplified implementation for PID using C language:
