@@ -24,7 +24,7 @@ The Schematic for the System is shown below:
 
 ## Hardware Components
 
-LM35D Temeperature Sensors, Qty 2
+* LM35D Temeperature Sensors, Qty 2
 * Arduino Nano Microcontroller
 * 10Kohm Potentiometers, Qty 2
 * 36 ohm 5 watt Cement Resistor – purchased from Digi Key
