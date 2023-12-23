@@ -1,4 +1,7 @@
 # PID Temperature Control of a Miniature Thermal Chamber
+
+<img alt="Block Diagram" src="images/PID Temperature Control System.jpg">
+
 The PID Temperature Control of a miniature thermal chamber is a system designed for educational purposes. It can be used as an inexpensive lab for developing an understanding of process control and the effects of process dynamics on selecting the optimum PID (proportional, integral, and derivative) tuning constants. The system can be implemented inexpensively and would be ideal for a student doing an on-line course in process control systems. The system allows operating, PI, or PID control with reverse or forward (direct) acting control., by using selectable final control elements (resistive heater, or variable fan speed). The system provides 2 sets of process dynamics by tightly coupling a temperature sensor to the resistive heater or alternatively using a sensor in the centre of the chamber. These very different process dynamics require very different sets of PID tuning.
 
 The system hardware consists of the miniature (100x68x50mm) thermal chamber, a control board and an interface board.
@@ -19,7 +22,7 @@ The thermal chamber consists or 2 Cement resistor heaters of 5 watts each, a 12V
 
 The following image shows a block diagram for the system. Note that the Arduino Serial Plotter is used to display the Temperatures and Setpoints. It is also used to generate the following commands:
 
-<img alt="Block Diagraam" src="images/Thermal Chamber PID  Temperature Control.jpg">
+<img alt="Block Diagram" src="images/Thermal Chamber PID  Temperature Control.jpg">
 
 TM35_1 sets the PID controlled variable as the temperature of one of the cement resistor heaters. In the phot, it is the cement resistor on the right.
 
@@ -32,8 +35,6 @@ Forward sets the PID controller to Forward(Direct) acting where the temperature 
 Manual disables the PID controller and allows the the setpoint potentiometer to fix either the heater or fan setting from 0 to 100%. There is no feed back. This is referred to as open loop.
 
 Auto enables the PID controller, either Reverse or Forward acting.
-
-The features of the PID Temperature Control of a miniatur
 
 ## Thermal Chamber Temperature Control System Features.
 ## Chamber
