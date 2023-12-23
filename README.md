@@ -91,7 +91,7 @@ The following image shows a block diagram for the system. Note that the Arduino 
 ## How Does the PID Work?
 Before the use of microcontrollers and computers PID controllers were implemented with analog electronic devices, the principle one being the operational amplifier.
 Implementing PID control digitally uses an algorithm. There are several versions of the PID controller. The one implemented in this project is sometimes referred to as the Mixed or Standard implementation.
-The mathematics of the PID mixed PID controller can be represented as the following.
+The mathematics of the mixed PID controller can be represented as the following.
 
 <img alt="Math" src="images/Math.jpg">
 
