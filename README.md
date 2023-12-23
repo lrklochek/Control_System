@@ -16,12 +16,6 @@ The thermal chamber consists or 2 Cement resistor heaters of 5 watts each, a 12V
 
 The system hardware consists of the miniature (100x68x50mm) thermal chamber, a control board and an interface board.
 
-The control board consists of an Arduino Nano, a setpoint potentiometer for setting desire temperature in deg C and a disturbance potentiometer, selectable for either heater or fan. The outputs from the Nano are 2 pulse width modulated signals that produce a variable DC voltage that drives the fan and heater.
-
-The interface board utilizes 2 N Channel power Mosfets and uses the PWM signals from the Nano to produce a PWM output with a maximum voltage of 12VDC to supply the thermal chamber heaters and fan.
-
-The thermal chamber consists or 2 Cement resistor heaters of 5 watts each, a 12VDC fan, and 2 LM35DZ temperature sensors. One of the sensors measures the air temperature of the Chamber, while the other sensor is firmly attached to one of the temperature resistor heaters.
-
 The following image shows a block diagram for the system. Note that the Arduino Serial Plotter is used to display the Temperatures and Setpoints. It is also used to generate the following commands:
 
 <img alt="Block Diagram" src="images/Thermal Chamber PID  Temperature Control.jpg">
