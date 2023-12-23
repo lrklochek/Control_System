@@ -12,11 +12,11 @@ The interface board utilizes 2 N Channel power Mosfets and uses the PWM signals 
 
 The thermal chamber consists or 2 Cement resistor heaters of 5 watts each, a 12VDC fan, and 2 LM35DZ temperature sensors. One of the sensors measures the air temperature of the Chamber, while the other sensor is firmly attached to one of the temperature resistor heaters.
 
-<img alt="Block Diagram" src="images/Thermal Chamber.jpg">
+<img alt="Thermal Chamber" src="images/Thermal Chamber.jpg">
 
-The following image shos the open chamber, with the 2 cement resistor heaters. The resistor on the right has the sensor affixed to the resistor.
+The following image shows the open chamber, with the 2 cement resistor heaters. The resistor on the right has the sensor affixed to the resistor.
 
-<img alt="Block Diagram" src="images/Chamber.jpg">
+<img alt="Chamber" src="images/Chamber.jpg">
 
 The system hardware consists of the miniature (100x68x50mm) thermal chamber, a control board and an interface board.
 
