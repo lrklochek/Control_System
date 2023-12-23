@@ -118,3 +118,12 @@ The following plot is an open loop response for the temperature sensor attached 
 
 <img alt="Open Loop Response Dec 7" src="images/Open Loop Response Dec 7.jpg">
 
+The following chart is from an Excel spread sheet for using the information from the plot to calculate a set of PID and PI tuning constants:
+
+Tuning Constant Spread Sheet.jpg
+
+When these tuning constants are used they yield a response sometimes referred to as Quarter Decay. That is, the temperature will overshoot and undershoot several times with each successive overshoot being reduce to a quarter of the previous cycle. After several of these cycles, the temperature will reach the desired setpoint, referred to as steady state.
+
+## Why is the PID Temperature Control of a Miniature Thermal Chamber So Useful as an Educational Platform?
+
+Because of the flexibility of the system ( 2 sets of very different process dynamics, a reverse and forward acting controller, open loop and closed loop control) many labs can be set up to calculate tuning constants and then demonstrate  operation of a process control system using these tuning constants for the 2 processes and for Reverse and Forward acting controllers. This would enable a student to have a working knowledge of process control and make adapting to controlling industrial processes much more quickly and confidently.
