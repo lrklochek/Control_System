@@ -16,7 +16,7 @@ The thermal chamber consists or 2 Cement resistor heaters of 5 watts each, a 12V
 
 The following image shows the open chamber, with the 2 cement resistor heaters. The resistor on the right has the sensor affixed to the resistor.
 
-<img alt="Chamber" src="images/Chamber.jpg">
+<img alt="Chamber" src="images/Chamber.JPG">
 
 The system hardware consists of the miniature (100x68x50mm) thermal chamber, a control board and an interface board.
 
