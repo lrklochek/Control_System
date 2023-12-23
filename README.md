@@ -115,3 +115,6 @@ For the Air temperature, we would expect a much slower and smaller response than
 These different responses characterize the **process dynamics** of the system. Getting the best response by our PID controller will require different **Proportional Band**, **Integral time** and **Derivative time** settings. Theses settings are known as the **tuning constants**. Using the open loop response, and a method called **Ziegler Nichols** we can generate a set of tuning constants by analyzing the plot of the open loop response.
 
 The following plot is an open loop response for the temperature sensor attached to the cement resistor heater. Superimposed on the plot is the Ziegler Nichols calculations for determining the 'best" tuning constants.
+
+<img alt="Open Loop Response Dec 7" src="images/Open Loop Response Dec 7.jpg">
+
