@@ -16,6 +16,23 @@ The control board consists of an Arduino Nano, a setpoint potentiometer for sett
 The interface board utilizes 2 N Channel power Mosfets and uses the PWM signals from the Nano to produce a PWM output with a maximum voltage of 12VDC to supply the thermal chamber heaters and fan.
 
 The thermal chamber consists or 2 Cement resistor heaters of 5 watts each, a 12VDC fan, and 2 LM35DZ temperature sensors. One of the sensors measures the air temperature of the Chamber, while the other sensor is firmly attached to one of the temperature resistor heaters.
+
+The following image shows a block diagram for the system. Note that the Arduino Serial Plotter is used to display the Temperatures and Setpoints. It is also used to generate the following commands:
+
+TM35_1 sets the PID controlled variable as the temperature of one of the cement resistor heaters. In the phot, it is the cement resistor on the right.
+
+TM35_2 sets the PID Controlled variable as the temperature of the sensor in the middle of the chamber.
+
+Reverse sets the PID controller to Reverse acting, where the temperature is controlled by the PID adjusting the voltage to the cement resistor heater. The fan then can be manually adjusted by the potentiometer to act as a disturbance.
+
+Forward sets the PID controller to Forward(Direct) acting where the temperature is controlled by adjusting the fan voltage, and therefor air flow to the chamber. The heater then can be manually adjusted by the potentiometer to act as a disturbance.
+
+Manual disables the PID controller and allows the the setpoint potentiometer to fix either the heater or fan setting from 0 to 100%. There is no feed back. This is referred to as open loop.
+
+Auto enables the PID controller, either Reverse or Forward acting.
+
+The features of the PID Temperature Control of a miniatur
+
 ## Thermal Chamber Temperature Control System Features.
 ## Chamber
 * Small volume chamber 100mmx68mmx50mm
