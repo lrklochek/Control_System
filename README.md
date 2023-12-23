@@ -34,7 +34,7 @@ The following image shows a block diagram for the system. Note that the Arduino 
 
 **Manual** disables the PID controller and allows the the setpoint potentiometer to fix either the heater or fan setting from 0 to 100%. There is no feed back. This is referred to as open loop.
 
-**Auto enables** the PID controller, either Reverse or Forward acting.
+**Auto** enables the PID controller, either Reverse or Forward acting.
 
 ## Thermal Chamber Temperature Control System Features.
 ## Chamber
