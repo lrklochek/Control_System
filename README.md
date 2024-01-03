@@ -44,7 +44,7 @@ The Schematic for the System is shown below:
 * Binding Posts (4 different colours), Qty 4
 * Dupont Jumper wires
 
-The following image shows a block diagram for the system. Note that the Arduino Serial Plotter is used to display the Temperatures and Setpoints. It is also used to generate the following commands:
+The block diagram below shows the interconnection of the boards and thermal chamber. Note that the Arduino Serial Plotter is used to display the Temperatures and Setpoints and is also used to generate commands to the Arduino PID Controller.
 
 <img alt="Block Diagram" src="images/Thermal Chamber PID  Temperature Control_2.jpg">
 
@@ -68,7 +68,6 @@ The following image shows a block diagram for the system. Note that the Arduino 
 
 **Auto enables** the PID controller, either Reverse or Forward acting.
 
-The block diagram below shows the interconnection of the boards and thermal chamber:
 ## Thermal Chamber Temperature Control System Features.
 ## Chamber
 * Small volume chamber 100mmx68mmx50mm
