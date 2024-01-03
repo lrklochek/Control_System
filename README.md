@@ -26,7 +26,8 @@ The Schematic for the System is shown below:
 
 * LM35D Temeperature Sensors, Qty 2
 * Arduino Nano Microcontroller
-* 10Kohm Potentiometers, Qty 2
+* 10Kohm Potentiometers
+* 5Kohm Potentiometer
 * 36 ohm 5 watt Cement Resistor – purchased from Digi Key
 * 30 ohm 5 watt Cement Resistor – purchased from Digi Key
 * IRF540N N channel Power Mosfets, Qty 2
