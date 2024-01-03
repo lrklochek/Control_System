@@ -45,7 +45,7 @@ The Schematic for the System is shown below:
 
 The following image shows a block diagram for the system. Note that the Arduino Serial Plotter is used to display the Temperatures and Setpoints. It is also used to generate the following commands:
 
-<img alt="Block Diagram" src="images/Thermal Chamber PID  Temperature Control.jpg">
+<img alt="Block Diagram" src="images/Thermal Chamber PID  Temperature Control 2.jpg">
 
 **TM35_1** sets the PID controlled variable as the temperature of one of the cement resistor heaters. In the phot, it is the cement resistor on the right.
 
