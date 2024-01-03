@@ -48,9 +48,17 @@ The following image shows a block diagram for the system. Note that the Arduino 
 
 <img alt="Block Diagram" src="images/Thermal Chamber PID  Temperature Control_2.jpg">
 
-**TM35_1** sets the PID controlled variable as the temperature of one of the cement resistor heaters. In the phot, it is the cement resistor on the right.
+**LM35_1** - Sets the PID controlled variable as the temperature of one of the cement resistor heaters. In the phot, it is the cement resistor on the right. Tuning Constants are optimal using Ziegler Nichols Open Loop method.
 
-**TM35_2** sets the PID Controlled variable as the temperature of the sensor in the middle of the chamber.
+**LM35_2** - Sets the PID Controlled variable as the temperature of the sensor in the middle of the chamber. Tuning Constants are optimal using Ziegler Nichols Open Loop method.
+
+**LM35_1Fast** - Sets PID controlled variable to heater temperature sensor, PID tuning constants for a fast oscillatory response
+
+**LM35_1Slow** - Sets PID controlled variable to heater temperature sensor, PID tuning constants for a slow stable response
+
+**LM35_2Fast** - Sets PID controlled variable to air temperature sensor, PID tuning constants for a fast oscillatory response
+
+**LM35_2Slow** - Sets PID controlled variable to air temperature sensor, PID tuning constants for a slow stable response
 
 **Reverse** sets the PID controller to Reverse acting, where the temperature is controlled by the PID adjusting the voltage to the cement resistor heater. The fan then can be manually adjusted by the potentiometer to act as a disturbance.
 
@@ -58,8 +66,9 @@ The following image shows a block diagram for the system. Note that the Arduino 
 
 **Manual** disables the PID controller and allows the the setpoint potentiometer to fix either the heater or fan setting from 0 to 100%. There is no feed back. This is referred to as open loop.
 
-**Auto** enables the PID controller, either Reverse or Forward acting.
+**Auto enables** the PID controller, either Reverse or Forward acting.
 
+The block diagram below shows the interconnection of the boards and thermal chamber:
 ## Thermal Chamber Temperature Control System Features.
 ## Chamber
 * Small volume chamber 100mmx68mmx50mm
