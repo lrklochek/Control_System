@@ -20,7 +20,7 @@ The following image shows the open chamber, with the 2 cement resistor heaters. 
 
 The Schematic for the System is shown below:
 
-<img alt="Schematic" src="images/Schematic.jpg">
+<img alt="Schematic" src="images/Schematic 2.jpg">
 
 ## Hardware Components
 
